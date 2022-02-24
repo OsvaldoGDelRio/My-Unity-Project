@@ -3,4 +3,4 @@
 
  ## Avances
 
- 2.1. La primera ventana
+2.5. Detección de colisiones
