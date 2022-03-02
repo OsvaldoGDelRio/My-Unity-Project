@@ -6,6 +6,9 @@ public class CollisionManager : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D coll)
     {
-        Debug.Log("Ups, colisión detectada");
+        if(coll.CompareTag("Fuego"))
+        {
+            Debug.Log("Player has entered the trigger");
+        }
     }
 }
